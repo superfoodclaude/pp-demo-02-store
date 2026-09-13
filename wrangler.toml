@@ -1,0 +1,15 @@
+name = "pp-demo-02-store"
+main = "dist/server/index.js"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "dist/client"
+binding = "ASSETS"
+
+[vars]
+PUBLIC_STORE_DOMAIN = "pp-demo-02.myshopify.com"
+PUBLIC_STOREFRONT_ID = "1000179771"
+PUBLIC_CHECKOUT_DOMAIN = "pp-demo-02.myshopify.com"
+PUBLIC_CUSTOMER_ACCOUNT_API_CLIENT_ID = "ffdd5eb0-4021-4230-807e-4ad073180a57"
+PUBLIC_CUSTOMER_ACCOUNT_API_URL = "https://shopify.com/101866373429"
